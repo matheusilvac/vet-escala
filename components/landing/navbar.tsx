@@ -34,23 +34,12 @@ export function Navbar() {
         "sticky top-0 z-50 transition-[background-color,backdrop-filter,border-color] duration-300",
         scrolled
           ? "border-b border-white/10 bg-[#0b1d26]/75 backdrop-blur"
-          : "bg-transparent"
+          : "bg-[#0b1d26]/55 backdrop-blur-sm"
       )}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-2 py-0 sm:px-6 lg:px-8">
         <Link href="#" className="group inline-flex items-center gap-2">
-          <span className="relative grid h-9 w-9 place-items-center rounded-xl bg-white/5 ring-1 ring-white/10">
-            <span className="absolute inset-0 rounded-xl shadow-[0_0_40px_rgba(0,203,167,0.25)]" />
-            <span className="relative font-display text-sm font-bold text-white">
-              ve
-            </span>
-          </span>
-          <div className="leading-tight">
-            <div className="font-display text-sm font-bold tracking-tight text-white">
-              Vet Escala
-            </div>
-            <div className="text-xs text-white/60">Aceleradora Veterinária</div>
-          </div>
+          <img src="/icon.png" alt="" className="w-30 h-auto object-cover"/>
         </Link>
 
         <nav className="hidden items-center gap-7 md:flex">

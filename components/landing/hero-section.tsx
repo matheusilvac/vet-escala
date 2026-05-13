@@ -147,18 +147,7 @@ export function HeroSection() {
                           Estratégia → Conversão → Retenção
                         </div>
                       </div>
-                    </div>
-
-                    <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
-                      <Image
-                        src="/hero-vet.svg"
-                        alt="Profissional veterinário com pet em um visual premium"
-                        width={840}
-                        height={560}
-                        priority
-                        className="h-auto w-full"
-                      />
-                    </div>
+                    </div>                  
                   </div>
                 </div>
               </div>
