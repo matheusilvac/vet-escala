@@ -37,7 +37,7 @@ export function Navbar() {
           : "bg-[#0b1d26]/55 backdrop-blur-sm"
       )}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-2 py-0 sm:px-6 lg:px-8">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-2 py-2 sm:px-6 lg:px-8">
         <Link href="#" className="group inline-flex items-center gap-2">
           <img src="/icon.png" alt="" className="w-30 h-auto object-cover"/>
         </Link>
